@@ -1,4 +1,3 @@
-const { count } = require('console')
 const express=require('express')
 const router=express.Router()
 const Product =require('../model/products')
@@ -11,7 +10,7 @@ router.get('',function(req,res) {
 
 router.get('/:productId',function(req,res) {
     const productId=req.params.productId
-    
+
     Product.findById(productId,function(err,foundProduct) {
         if(err) {
             return res.status(422).send({errors:[{title:'product error',detail:'Product not found'}]})
