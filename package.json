@@ -3,12 +3,12 @@
   "version": "0.0.0",
   "engines": {
     "node": "12.19.0",
-    "npm":"6.14.8"
+    "npm": "6.14.8"
   },
   "scripts": {
     "postinstall": "ngcc",
     "ng": "ng",
-    "start": "ng serve",
+    "start": "npm run start --prefix server",
     "start-dev": "ng serve --proxy-config proxy.conf.json",
     "build": "ng build --prod",
     "test": "ng test",
@@ -52,5 +52,17 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~4.0.2"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szpm810/resev-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/szpm810/resev-app/issues"
+  },
+  "homepage": "https://github.com/szpm810/resev-app#readme"
 }
