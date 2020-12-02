@@ -28,12 +28,13 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/sass/paper-kit.scss",
+              "src/assets/css/demo.css",
+              "src/assets/css/nucleo-icons.css",
               "src/styles.scss"
             ],
-            "scripts": [
-               "node_modules/bootstrap/dist/js/bootstrap.min.js"
-              ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -95,12 +96,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/assets/sass/paper-kit.scss",
+              "src/assets/css/demo.css",
+              "src/assets/css/nucleo-icons.css",
               "src/styles.scss"
             ],
-            "scripts": [
-              "./node_modules/jquery/dist/jquery.slim.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "./node_modules/popper.js/dist/umd/popper.min.js"]
+            "scripts": []
           }
         },
         "lint": {
@@ -133,6 +135,6 @@
   },
   "defaultProject": "resev-app",
   "cli": {
-    "analytics": "52ac4a15-abc6-467a-ae03-34f44ec22a9e"
+    "analytics": "a95a3d3e-5f26-4704-9dee-210c5f9f90c8"
   }
 }
