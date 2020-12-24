@@ -43,7 +43,7 @@ testem.log
 
 # System Files
 .DS_Store
-Thumbs.db
+Thumbs.db 
 
 #  config Files
 /server/config/dev.js
