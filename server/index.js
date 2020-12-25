@@ -1,4 +1,5 @@
 const express=require('express')
+const mongoose = require('mongoose')
 const mongoose= require('mongoose')
 const bodyParser = require('body-parser')
 const config= require('./config/dev')
@@ -8,9 +9,20 @@ const productRoutes =require('./routes/products')
 const userRoutes =require('./routes/users')
 const path =require('path')
 
+
 mongoose.connect(config.DB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+}).then(
+    () => {
+        const fakeDb =new FakeDb()
+        fakeDb.pushProductsToDb()
+    }
+)
+
+const app=express()
+
+app.use('/api/v1/products',productRoutes)
   useCreateIndex:true
 }).then(
     () => {

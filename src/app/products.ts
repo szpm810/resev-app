@@ -23,10 +23,12 @@ export const products = [
       headingtext2:'テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章',
       headingtext3:'abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde'
     },
+      {
 
     {
 
       {
+
 
       coverimage:'./assets/img/phone-cover (1).jpg',
       name: 'Phone Standard',
@@ -64,6 +66,5 @@ export const products = [
       headingtext2:'テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章',
       headingtext3:'abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde'
     }
-
   ];
   

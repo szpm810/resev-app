@@ -4,6 +4,7 @@ import { Routes,RouterModule } from '@angular/router'; //app-routingからコピ
 import { ProductService } from '../shared/product.service';
 import { ProductDetailComponent } from './product-detail/product-detail.component';
 import { ProductListComponent } from './product-listings/product-listings.component';
+
 import { ProductComponent } from './product.component';
 
 const routes: Routes = [
@@ -27,11 +28,14 @@ const routes: Routes = [
     RouterModule.forChild(routes), //app-routingでforRoot使っているのでforChildに直す
     CommonModule //Angular特有の便利な機能のためにcommonmoduleが必要
   ],
-
+  providers: [
+    ProductService
+  ],
   providers: [],
   providers: [
     ProductService
   ],
+
 
   bootstrap: []
 })
