@@ -8,7 +8,7 @@ import { products } from '../../products';
   templateUrl: './product-detail.component.html',
   styleUrls: ['./product-detail.component.scss']
 })
-export class ProductDetailComponent implements OnInit {
+export class ProductDetailComponent  {
   product
   
 

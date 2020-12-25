@@ -7,6 +7,13 @@ import { ProductModule } from './product/product.module';
 @NgModule ({
   imports: [
     RouterModule.forRoot(routes),
+    ProductModule
+  ],
+
+
+// @NgModule({
+//   imports: [RouterModule.forRoot(routes)],
+
 
   exports: [RouterModule]
 })
