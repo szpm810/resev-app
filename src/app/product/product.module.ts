@@ -30,6 +30,12 @@ const routes: Routes = [
   providers: [
     ProductService
   ],
+  providers: [],
+  providers: [
+    ProductService
+  ],
+
+
   bootstrap: []
 })
 export class ProductModule { }
