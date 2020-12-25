@@ -6,9 +6,9 @@ const config= require('./config/dev')
 const FakeDb =require('./fake-db')
 
 const productRoutes =require('./routes/products')
+const path =require('path')
 const userRoutes =require('./routes/users')
 const path =require('path')
-
 
 mongoose.connect(config.DB_URI, {
   useNewUrlParser: true,
@@ -47,6 +47,12 @@ const appPath=path.join(__dirname, '..','dist','resev-app')
      res.sendFile(path.resolve(appPath,'index.html'))
  })
 }
+
+const appPath=path.join(__dirname, '..','dist','resev-app')
+ app.use(express.static(appPath))
+ app.get("*",function(req,res) {
+     res.sendFile(path.resolve(appPath,'index.html'))
+ })
 
 const PORT = process.env.PORT || '3001'
 
