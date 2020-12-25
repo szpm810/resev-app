@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { products } from 'src/app/products';
 import { ProductService } from 'src/app/shared/product.service';
 
 
@@ -8,6 +9,15 @@ import { ProductService } from 'src/app/shared/product.service';
   styleUrls: ['./product-listings.component.scss']
 })
 export class ProductListComponent implements OnInit {
+
+
+  products: any 
+
+  constructor() { }
+
+  ngOnInit() {
+    this.products=products
+
   products: any 
 
   constructor(private productService:ProductService) { }
@@ -53,6 +63,7 @@ export class ProductListComponent implements OnInit {
 //   complete() { console.log('完了しました'); }
 // });
 // console.log('subscribeから抜けました');
+
   }
 
 }

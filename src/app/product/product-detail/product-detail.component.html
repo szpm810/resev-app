@@ -1,3 +1,25 @@
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img class="first-slide" src={{product.coverimage}} alt="First slide">
+            <div class="container">
+            <div class="carousel-caption text-left">
+                <h1>{{product.name}}</h1>
+                <p>{{product.description}}</p>
+                <p><a class="btn btn-lg btn-primary" href="#" role="button">＄ {{product.price}}</a></p>
+            </div>
+            </div>
+        </div>
+        </div>
+  </div>
+  
+  <!--h1,p,aを置き換える-->
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+=======
 <div *ngIf="product">
     <div class="page-header page-header-xs" data-parallax="true" [ngstyle]="{ 'background-image' : 'url(' + product.coverimage +')'}">
           <!-- <div class="filter"> </div> -->
@@ -82,6 +104,27 @@
   <div class="container marketing">
   
     <!-- Three columns of text below the carousel -->
+
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h2>{{ product.heading1 }}</h2>
+        <p>{{ product.headingtext1 }}</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h2>{{ product.heading2 }}</h2>
+        <p>{{ product.headingtext2 }}</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+        <h2>{{ product.heading3 }}</h2>
+        <p>{{ product.headingtext3 }}</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
   
   
     <!-- START THE FEATURETTES -->
@@ -128,12 +171,13 @@
   
   </div><!-- /.container -->
   
-</div>
-  
+
   <!-- FOOTER -->
   <footer class="container">
     <p class="float-right"><a href="#">Back to top</a></p>
     <p>&copy; 2017-2018 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+
+ 
   </footer>
 
   

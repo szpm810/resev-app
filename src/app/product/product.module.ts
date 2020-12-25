@@ -27,9 +27,12 @@ const routes: Routes = [
     RouterModule.forChild(routes), //app-routingでforRoot使っているのでforChildに直す
     CommonModule //Angular特有の便利な機能のためにcommonmoduleが必要
   ],
+
+  providers: [],
   providers: [
     ProductService
   ],
+
   bootstrap: []
 })
 export class ProductModule { }

@@ -23,7 +23,11 @@ export const products = [
       headingtext2:'テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章',
       headingtext3:'abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde'
     },
+
+    {
+
       {
+
       coverimage:'./assets/img/phone-cover (1).jpg',
       name: 'Phone Standard',
       price: 299,
@@ -36,6 +40,19 @@ export const products = [
       headingtext3:'abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde'
       },
     {
+
+        coverimage:'./assets/img/phone-cover (1).jpg',
+        name: 'Phone Special',
+        price: 999,
+        description: '',
+        heading1:' サンプルテキスト1',
+        heading2: ' サンプルテキスト2 ',
+        heading3: ' サンプルテキスト3',
+        headingtext1:'サンプルテキスト　サンプルテキスト　サンプルテキスト　サンプルテキスト サンプルテキスト　サンプルテキスト サンプルテキスト　サンプルテキスト サンプルテキスト　サンプルテキスト サンプルテキスト　サンプルテキスト',
+        headingtext2:'テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章',
+        headingtext3:'abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde'
+      }
+
       coverimage:'./assets/img/phone-cover (1).jpg',
       name: 'Phone Special',
       price: 999,
@@ -47,5 +64,6 @@ export const products = [
       headingtext2:'テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章 テキスト文章　テキスト文章　テキスト文章　テキスト文章',
       headingtext3:'abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde abcde'
     }
+
   ];
   
