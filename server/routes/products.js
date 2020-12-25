@@ -5,6 +5,10 @@ const Product =require('../model/products')
 router.get('',function(req,res) {
     Product.find({},function(err,foundProducts) {
        return res.json(foundProducts)
+
+router.get('',function(req,res) {
+    Product.find({},function(err,foundProducts) {
+       return res.json(foundProducts)
     })   
 })
 

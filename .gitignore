@@ -47,3 +47,8 @@ Thumbs.db
 
 #config Files
 /server/config/dev.js
+Thumbs.db 
+
+#  config Files
+/server/config/dev.js
+

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './common/navbar/navbar.component';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -15,7 +16,11 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     AppRoutingModule,
   ],
+    HttpClientModule,
+    AppRoutingModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
